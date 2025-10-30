@@ -1,0 +1,24 @@
+# AstroNvim base files
+.config/nvim/init.lua
+.config/nvim/README.md
+.config/nvim/lazy-lock.json
+.config/nvim/lua/lazy_setup.lua
+.config/nvim/lua/plugins/astrocore.lua
+.config/nvim/lua/plugins/astrolsp.lua
+.config/nvim/lua/plugins/astroui.lua
+.config/nvim/lua/plugins/mason.lua
+.config/nvim/lua/plugins/none-ls.lua
+.config/nvim/lua/plugins/treesitter.lua
+.config/nvim/lua/polish.lua
+.config/nvim/neovim.yml
+.config/nvim/selene.toml
+.config/nvim/.stylua.toml
+.config/nvim/.neoconf.json
+.config/nvim/.luarc.json
+
+# Neovim temp files
+*.swp
+*.swo
+.config/nvim/.lazy/
+.config/nvim/.undo/
+
