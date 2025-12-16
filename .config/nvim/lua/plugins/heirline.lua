@@ -2,7 +2,7 @@
 return {
   "rebelot/heirline.nvim",
   opts = function(_, opts)
-    local status = require "astroui.status"
+    local status = require("astroui.status")
     local WorkDir = {
       init = function(self)
         self.icon = " "
@@ -33,9 +33,9 @@ return {
         provider = "",
       },
     }
-    opts.statusline = { -- statusline
+    opts.statusline = {                                                                                -- statusline
       hl = { fg = "fg", bg = "bg" },
-      status.component.mode { mode_text = { padding = { left = 1, right = 1 } }, hl = { bold = true } }, -- add the mode text
+      status.component.mode({ mode_text = { padding = { left = 1, right = 1 } }, hl = { bold = true } }), -- add the mode text
       status.component.git_branch(),
       status.component.file_info(),
       status.component.git_diff(),

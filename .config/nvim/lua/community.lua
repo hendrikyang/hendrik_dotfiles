@@ -10,5 +10,7 @@ return {
   { import = "astrocommunity.motion/flash-nvim" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.bash" },
   -- import/override with your plugins folder
 }

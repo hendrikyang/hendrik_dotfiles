@@ -6,6 +6,5 @@
   - go
     - Go proxy, which is required for mainland
 - .bashrc
-  - my config
 - .tmux.conf
-  - my config
+- .vimrc
