@@ -1,4 +1,3 @@
-source -- "$HOME/.local/share/blesh/ble.sh"
 # my own config starts
 alias df='df -h'
 alias du='du -h'
@@ -40,7 +39,6 @@ alias td='tmux deta -s a'
 alias tl='tmux ls'
 #alias gss='git status'
 #alias gb='git branch'
-alias nerd='ssh -i ~/.ssh/id_vps -p 2012 cyang@74.48.137.149'
 
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin

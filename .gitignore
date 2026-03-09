@@ -9,7 +9,6 @@
 .config/nvim/lua/plugins/mason.lua
 .config/nvim/lua/plugins/none-ls.lua
 .config/nvim/lua/plugins/treesitter.lua
-.config/nvim/lua/polish.lua
 .config/nvim/neovim.yml
 .config/nvim/selene.toml
 .config/nvim/.stylua.toml
