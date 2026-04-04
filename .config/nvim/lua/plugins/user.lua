@@ -1,5 +1,3 @@
--- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
 -- You can also add or configure plugins by creating files in this `plugins/` folder
 -- PLEASE REMOVE THE EXAMPLES YOU HAVE NO INTEREST IN BEFORE ENABLING THIS FILE
 -- Here are some examples:
@@ -53,5 +51,19 @@ return {
     "hendrikyang/nvim-wordhighlighter",
     config = function() require("wordhighlighter").setup() end,
     lazy = false,
+  },
+  {
+    "yorickpeterse/nvim-window",
+    keys = {
+      { "<leader>jw", "<cmd>lua require('nvim-window').pick()<cr>", desc = "Jump to window" },
+    },
+    config = function()
+      require("nvim-window").setup {
+        chars = { "a", "s", "d", "f", "g" }, -- Characters for window hints
+        border = "single", -- Border style for floating windows
+        render = "float", -- Render hints as floating windows
+      }
+    end,
+    lazy = true,
   },
 }
